@@ -1,0 +1,28 @@
+# Secrets
+.env
+*.key
+
+# Plaintext sensitive files (never push these)
+passwords.txt
+passwords*.txt
+*.dec
+*.decrypted
+decrypted/
+secrets/
+
+# Encrypted output (remove this line if you WANT to push .enc files)
+*.enc
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
